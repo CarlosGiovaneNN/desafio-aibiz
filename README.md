@@ -4,7 +4,7 @@
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Rotas](#rotas)
-- [Postmam](#postman)
+- [Postman](#postman)
 
 ## Tecnologias Usadas
 
@@ -62,7 +62,7 @@ yarn start:dev
 ### Enterprise 
 - **POST**: `/enterprise/create` -> Cria uma empresa.
 #### Body:
-```json
+```javascript
 {  
 "name": "nome-exemplo" 
 }
