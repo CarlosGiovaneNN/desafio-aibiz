@@ -28,7 +28,9 @@ git clone https://github.com/CarlosGiovaneNN/desafio-aibiz.git
   2. **Para Linux**:
   - Abra o terminal e execute os seguintes comandos:
 ```bash
-sudo apt update sudo apt install nodejs npm 
+sudo apt-get install curl
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ``` 
 ### Instalando o Yarn
 Após instalar o Node.js, você pode instalar o Yarn usando o npm (gerenciador de pacotes do Node):
