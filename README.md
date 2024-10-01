@@ -37,6 +37,13 @@ Após instalar o Node.js, você pode instalar o Yarn usando o npm (gerenciador d
 npm install --global yarn
 ```
 
+### Instalando as dependências
+Após instalar o Yarn, você precisa insatalar as dependências do codigo:
+
+```bash 
+yarn
+```
+
 ### Configure as variáveis de ambiente
 Crie um arquivo `.env` na raiz do projeto e adicione as configurações necessárias:
 
