@@ -97,7 +97,7 @@ token-referente-a-empresa
  }
 ``` 
  
-- **PUT**: `/client/update/:id` -> Atualiza o dado do cliente. 
+- **PUT**: `/client/update/:id-do-cliente` -> Atualiza o dado do cliente. 
 #### Request:
 ```javascript 
 token-referente-a-empresa
@@ -115,7 +115,7 @@ token-referente-a-empresa
 }
 ``` 
  
- - **GET**: `/client/search/:id` -> Retorna os dados de um cliente específico.
+ - **GET**: `/client/search/:id-do-cliente` -> Retorna os dados de um cliente específico.
 #### Request:
 ```javascript 
 token-referente-a-empresa
@@ -131,7 +131,7 @@ token-referente-a-empresa
 token-referente-a-empresa
 ```
  
-- **DELETE**: `/client/:id` -> Remove o cliente específico. 
+- **DELETE**: `/client/:id-do-cliente` -> Remove o cliente específico. 
 #### Request:
   ```javascript 
   token-referente-a-empresa
