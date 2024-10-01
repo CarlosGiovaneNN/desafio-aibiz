@@ -1,10 +1,10 @@
-
 # Desafio AIBIZ
 
 - [Tecnologias usadas](#tecnologias-usadas)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Rotas](#rotas)
+- [Postmam](#postman)
 
 ## Tecnologias Usadas
 
@@ -48,9 +48,9 @@ JWT_SECRET = qualquer string
 ## Uso 
  1. Inicie o servidor de desenvolvimento: 
  ```bash
-npm run start:dev
+yarn start:dev
 ``` 
- 2. Acesse a API via `http://localhost:3000`. A porta pode ser alterada conforme as configurações no arquivo `.env`. 
+ 2. Acesse a API via `http://localhost:3000`.
 ## Rotas
 ### Enterprise 
 - **POST**: `/enterprise/create` -> Cria uma empresa.
@@ -68,13 +68,6 @@ npm run start:dev
 "name": "nome-exemplo" 
 }
 ```
-
-- **GET**: `/enterprise/searchAll` -> Mostra todos os clientes da empresa.
-#### Query:
-```javascript 
-name:name 
-value:nome-da-empresa
-``` 
 
 - **DELETE**: `/enterprise/delete` -> Deleta a empresa. 
 #### Query:
@@ -124,6 +117,12 @@ token-referente-a-empresa
  ```javascript 
  id-do-cliente
 ```
+
+- **GET**: `/client/searchAll` -> Mostra todos os clientes da empresa.
+#### Request:
+```javascript 
+token-referente-a-empresa
+```
  
 - **DELETE**: `/client/:id` -> Remove o cliente específico. 
 #### Request:
@@ -134,3 +133,6 @@ token-referente-a-empresa
  ```javascript 
  id-do-cliente
 ```
+## Postman
+link do postman:
+https://www.postman.com/spaceflight-participant-41452383/workspace/desafio-aibiz
