@@ -135,4 +135,4 @@ token-referente-a-empresa
 ```
 ## Postman
 link do postman:
-https://www.postman.com/spaceflight-participant-41452383/workspace/desafio-aibiz
+https://www.postman.com/spaceflight-participant-41452383/desafio-aibiz/overview
